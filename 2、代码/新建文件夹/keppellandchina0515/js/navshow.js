@@ -1,0 +1,9 @@
+$(function(){	
+ //¹«Ë¾ÍøÕ¾
+ $("a.nav5").mouseover(function(){
+ $(".menu1").slideDown(100);
+ })	
+ $("a.nav5").siblings("a").mouseover(function(){
+		$(".menu1").slideUp(100);										
+ })
+})
